@@ -10,3 +10,6 @@ makedocs(sitename = "GenericSSMs.jl",
                   "Resampling API" => "resampling-api.md"],
         format = Documenter.HTML(prettyurls = false))
 
+deploydocs(
+    repo = "github.com/skarppinen/GenericSSMs.jl.git",
+)
