@@ -2,11 +2,12 @@
 
 To install and use GenericSSMs.jl, run the following commands in the Julia REPL:
 ```
-# Install package (need to do only once).
+# Install GenericSSMs and its dependency Resamplings (need to do only once).
 import Pkg;
+Pkg.add(url = "https://github.com/skarppinen/Resamplings.jl"); 
 Pkg.add(url = "https://github.com/skarppinen/GenericSSMs.jl"); 
 
-# Load package. 
+# Load GenericSSMs. 
 using GenericSSMs
 ```
 
