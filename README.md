@@ -10,7 +10,7 @@ The main features of the package are:
 - Unconditional simulation from state space models
 - Resampling API
 
-An introduction and documentation are provided in the separate documentation pages. 
+An introduction and documentation are provided in the separate documentation pages (which are not yet online). 
 
 ## Disclaimer
 
