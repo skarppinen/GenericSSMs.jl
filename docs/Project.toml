@@ -1,2 +1,4 @@
 [deps]
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+GenericSSMs = "29543de0-c114-4053-bcdf-096e07cf7aba"
+Resamplings = "339d5a07-61a0-45b8-937d-02272b1cd568"
