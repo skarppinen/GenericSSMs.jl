@@ -11,6 +11,5 @@ makedocs(sitename = "GenericSSMs.jl",
         format = Documenter.HTML(prettyurls = false))
 
 deploydocs(
-    repo = "github.com/skarppinen/GenericSSMs.jl.git",
-    versions = ["stable" => "v^"]
+    repo = "github.com/skarppinen/GenericSSMs.jl.git"
 )
