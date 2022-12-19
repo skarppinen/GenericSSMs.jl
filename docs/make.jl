@@ -12,4 +12,5 @@ makedocs(sitename = "GenericSSMs.jl",
 
 deploydocs(
     repo = "github.com/skarppinen/GenericSSMs.jl.git",
+    versions = ["stable" => "v^"] # stable links to latest version
 )

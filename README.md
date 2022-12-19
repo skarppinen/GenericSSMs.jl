@@ -10,7 +10,7 @@ The main features of the package are:
 - Unconditional simulation from state space models
 - Resampling API
 
-An introduction and documentation are provided in the separate documentation pages (which are not yet online). 
+An introduction and documentation are provided in [the separate documentation pages](https://skarppinen.github.io/GenericSSMs.jl/stable). 
 
 ## Disclaimer
 
