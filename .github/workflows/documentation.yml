@@ -18,6 +18,8 @@ jobs:
         with:
           version: '1.8'
       - name: Install dependencies
+        env:
+           JULIA_PKG_USE_CLI_GIT: 'true'
         run: julia --project=docs/ -e 'using Pkg; Pkg.instantiate()'
       - name: Build and deploy
         env:
