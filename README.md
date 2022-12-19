@@ -3,12 +3,12 @@
 GenericSSMs.jl is a Julia package that provides building blocks for conducting statistical inference of state space models using particle filters. The package is designed to be small and modular, attempting to provide sensible and reasonably fast, non-allocating primitives for writing particle filtering algorithms.
 
 The main features of the package are:
-- Flexible API for defining generic state space models
+- API for defining generic state space models
 - Standard and conditional particle filtering
 - Tracebacking strategies for the conditional particle filter
 - Prediction from state space models
 - Unconditional simulation from state space models
-- Flexible resampling API
+- Resampling API
 
 An introduction and documentation are provided in the separate documentation pages. 
 
