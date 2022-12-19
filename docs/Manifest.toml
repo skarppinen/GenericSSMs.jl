@@ -38,7 +38,9 @@ version = "0.27.23"
 
 [[deps.GenericSSMs]]
 deps = ["LinearAlgebra", "Random", "Resamplings", "Statistics"]
-path = "/home/santeri/proj/julia/GenericSSMs"
+git-tree-sha1 = "61b9efa26c1d0ca923a55abf5602c008c96f7935"
+repo-rev = "main"
+repo-url = "https://github.com/skarppinen/GenericSSMs.jl.git"
 uuid = "29543de0-c114-4053-bcdf-096e07cf7aba"
 version = "0.1.0"
 
