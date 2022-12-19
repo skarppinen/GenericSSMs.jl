@@ -1,5 +1,6 @@
 # GenericSSMs.jl
 
+[![](https://img.shields.io/badge/docs-stable-blue.svg)](https://skarppinen.github.io/GenericSSMs.jl/stable)
 [![](https://img.shields.io/badge/docs-dev-blue.svg)](https://skarppinen.github.io/GenericSSMs.jl/dev)
 
 GenericSSMs.jl is a Julia package that provides building blocks for conducting statistical inference of state space models using particle filters. The package is designed to be small and modular, attempting to provide sensible and reasonably fast, non-allocating primitives for writing particle filtering algorithms.
@@ -12,7 +13,7 @@ The main features of the package are:
 - Unconditional simulation from state space models
 - Resampling API
 
-An introduction and documentation are provided in [the separate documentation pages](https://skarppinen.github.io/GenericSSMs.jl). 
+An introduction and documentation are provided in [the separate documentation pages](https://skarppinen.github.io/GenericSSMs.jl/stable). 
 
 ## Disclaimer
 
