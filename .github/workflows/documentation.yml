@@ -17,9 +17,9 @@ jobs:
       - uses: julia-actions/setup-julia@v1
         with:
           version: '1.8'
+      - name: Evaluate ssh-agent 
+        run: eval `ssh-agent`
       - name: Install dependencies
-        env:
-           JULIA_PKG_USE_CLI_GIT: 'true'
         run: julia --project=docs/ -e 'using Pkg; Pkg.instantiate()'
       - name: Build and deploy
         env:
