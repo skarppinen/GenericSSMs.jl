@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/545996307.svg)](https://doi.org/10.5281/zenodo.17288722)
+
 # GenericSSMs.jl
 
 [![](https://img.shields.io/badge/docs-stable-blue.svg)](https://skarppinen.github.io/GenericSSMs.jl/stable)
